@@ -1,0 +1,20 @@
+{
+  "name": "carloscarucce/mb-str-pad",
+  "description": "Binary safe behavior for str_pad",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Carlos A. B. Carucce",
+      "email": "carloscarucce@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "files": [
+      "mb_str_pad.php"
+    ]
+  }
+}
